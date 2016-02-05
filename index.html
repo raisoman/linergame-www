@@ -1,0 +1,320 @@
+<!DOCTYPE HTML>
+<html lang="da" class="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="The Liner Shipping Game ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LinerGame</title>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.cyan-deep_orange.min.css" />
+    <link rel="stylesheet" href="styles/custom.css" type="text/css" media="screen">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title"><a href="index.html"><img src="images/linergame-logo.png" alt="LinerGame"></a></span>
+                <p class="lg-pagetitle">Home/The game</p>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">LinerGame</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="index.html">Home</a>
+                <a class="mdl-navigation__link" href="#game">The Game</a>
+                <a class="mdl-navigation__link" href="about.html">About</a>
+                <a class="mdl-navigation__link" href="references.html">References</a>
+                <a class="mdl-navigation__link" href="contact.html">Contact</a>
+                <div class="drawer-separator"></div>
+                <span class="mdl-navigation__link mdl-color-text--cyan-400" href="">Game types</span>
+                <a class="mdl-navigation__link" href="standard-game.html">Standard</a>
+                <a class="mdl-navigation__link" href="executive-game.html">Executive</a>
+                <a class="mdl-navigation__link" href="support-functions-game.html">Support functions</a>
+                <a class="mdl-navigation__link" href="teambuilding-game.html">Teambuilding</a>
+                <a class="mdl-navigation__link" href="ports-game.html">For ports</a>
+                <a class="mdl-navigation__link" href="advanced-game.html">Advanced</a>
+
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div id="top" class="page-content">
+                <div id="heroimg" class="mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-typography--text-center full-width-med-size">
+                        <h1 class="mdl-typography--display-4 mdl-color-text--white main-heading ">The Liner<br>Shipping Game<sup> TM</sup></h1>
+                        <h3 class="mdl-color-text--white">Simple. Realistic. Educational. Fun.</h3>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect cta-btn" onclick="scrollToDiv('game');">
+                            Learn more
+                        </button>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet full-width-med-size">
+                        <div class="mdl-grid index-games-grid">
+                            <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">
+                                <div class="mdl-card__title linercard1">
+                                    <h2 class="mdl-card__title-text">Standard</h2>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    Game for new employees in container lines, freight forwarders, ports, terminals and supply chain managers.
+                                </div>
+                                <div class="mdl-card__actions in-bottom">
+                                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="standard-game.html">
+                                      Get Started
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">
+                                <div class="mdl-card__title linercard2">
+                                    <h2 class="mdl-card__title-text">Executive</h2>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    Game for board members and senior managers in container shipping lines, freight forwarders, ports and terminals.
+                                </div>
+                                <div class="mdl-card__actions in-bottom">
+                                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="executive-game.html">
+                                      Get Started
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">
+                                <div class="mdl-card__title linercard3">
+                                    <h2 class="mdl-card__title-text">Support Functions</h2>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    Ideal for shipping employees in IT, Finance, HR, Communication, Marketing, Procurement, Project Managers and Process Consultants.
+                                </div>
+                                <div class="mdl-card__actions in-bottom">
+                                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="support-functions-game.html">
+                                      Get Started
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">
+                                <div class="mdl-card__title linercard4">
+                                    <h2 class="mdl-card__title-text">Teambuilding</h2>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    Teambuilding well suited for newly formed departments or mixed project teams.
+                                </div>
+                                <div class="mdl-card__actions in-bottom">
+                                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="teambuilding-game.html">
+                                      Get Started
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">
+                                <div class="mdl-card__title linercard5">
+                                    <h2 class="mdl-card__title-text">For Ports</h2>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    For port personnel with a need to better understand the container shipping lines.
+                                </div>
+                                <div class="mdl-card__actions in-bottom">
+                                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="ports-game.html">
+                                      Get Started
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">
+                                <div class="mdl-card__title  linercard6">
+                                    <h2 class="mdl-card__title-text">Advanced</h2>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    Tailor-made sessions matching specific skills and requirements.
+                                </div>
+                                <div class="mdl-card__actions in-bottom">
+                                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="advanced-game.html">
+                                      Get Started
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdl-grid quote-section  mdl-color-text--cyan-300">
+                    <div class="mdl-cell mdl-cell--6-col">
+                        <blockquote>
+                            Extremely educating. It helped us to understand some essential basics, such as the difference between committed and non-committed cargo.
+                        </blockquote>
+                        <cite>- Henri Paukku, Project Manager, MacGregor Cargotec</cite>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col">
+                        <blockquote>
+                            I learned a lot from playing the liner shipping game and I learned it fast. It helps you understand the complexities of coordinating between countries and ports and between key personnel groups.
+                        </blockquote>
+                        <cite>- Chris Ellegaard, Professor, Aarhus University</cite>
+                    </div>
+                    <div class="mdl-cell mdl-cell--10-col right-link-container">
+                        <a class="mdl-color-text--grey-600" href="references.html">Read about clients and references..</a>
+                    </div>
+                </div>
+                <div id="game" class="mdl-grid mdl-color--grey-600">
+                    <div class="mdl-cell mdl-cell--12-col mdl-color-text--white article-section">
+                        <h1 class="mdl-typography--text-center">The Liner Shipping game</h1>
+                        <p class="">The Liner Shipping Game
+                            <sup>TM</sup> is a business game that models several core processes of a container liner company. Using containers and vessels built from <span id="lego1">LEGO<sup>TM*</sup></span> bricks, the players execute different functions, specifically stowage planning, cargo uptake management and terminal cargo handling.</p>
+                        <p>
+                            <blockquote>
+                                Extremely educating. It helped us to understand some essential basics, such as the difference between committed and non-committed cargo. It also provided insight on the importance smooth cooperation of the whole shipping network, not only its individual parts.
+                            </blockquote>
+                            <cite>- Henri Paukku, Project Manager, MacGregor Cargotec</cite>
+                            </p>
+                        <button onClick="window.location.href='mailto:contact@linergame.com?Subject=Request%20info';" class="mdl-button  mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                            Request more info
+                        </button>
+                        &nbsp;
+                        <button onClick="window.location.href='mailto:contact@linergame.com?Subject=Book%20game%20session';" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                            Book a session
+                        </button>
+                        <div class="article-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-grid">
+                            <h3 class="mdl-cell mdl-cell--12-col">The Setup </h3>
+                            <div class="mdl-cell mdl-cell--6-col">
+                                <p>The Liner Shipping Game<sup>TM</sup> offers a team of people (ideally 12) the unique opportunity to simulate and experience, in a relatively short time, how a modern complex container shipping line runs its business using vessels and containers made out of <span id="lego2">LEGO<sup>TM *</sup></span> bricks combined with a paper based flow of documentation in a small scale setup. During the game, the team will take responsibility for core commercial and operational tasks of a container shipping line, including vital terminal tasks, and through teamwork they can maximize carrier profitability. Each player gets to play all the different roles in the game by rotating and get the opportunity to collaborate directly with a number of the other participants. Depending on the prior experience of the players a full game takes between a half and a complete day to play. Shorter sessions can be arranged by simply reducing the number of rounds to be played. As the gameplay is quite intense, it can be of interest to combine a session with lectures on revenue management, liner operations, container stowage and more.</p>
+                            </div>
+                            <div class="mdl-cell mdl-cell--6-col"><img src="images/turku.jpg"></div>
+                        </div>
+                        <blockquote>The Liner Shipping Game gives a great glimpse into some of the core operational and revenue management principles in container shipping. During the game newcomers to the container shipping industry and people working in the logistics sector in general will learn and experience some of what goes on behind the scenes in a container line. It’s great for a team day out of the office building shared knowledge and understanding.</blockquote><cite>- Mikkel T. I. Hansen, General Manager, Maersk Line</cite>
+                        <div class="article-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-grid">
+                            <h3 class="mdl-cell mdl-cell--12-col">The Value</h3>
+                            <div class="mdl-cell mdl-cell--6-col">
+                                <p>The educational game provides participants with a realistic insight into the complex commercial and operational fundamentals of Liner Shipping. An educational session provides the following value:</p>
+                                <ul>
+                                    <li>
+                                        <p>Hands-on experience with customer service, booking uptake, vessel stowage, port operations and asset utilization tasks and their interplay</p>
+                                    </li>
+                                    <li>
+                                        <p>An understanding of the value of process standards and data discipline</p>
+                                    </li>
+                                    <li>
+                                        <p>An understanding of the importance of a network based and data driven approach to decision making for improving carrier profitability</p>
+                                    </li>
+                                    <li>
+                                        <p>Insight in to the role modern OR based IT systems can provide</p>
+                                    </li>
+                                    <li>
+                                        <p>Instruction / training provided by industry experts</p>
+                                    </li>
+                                    <li>
+                                        <p>Building team spirit</p>
+                                    </li>
+                                </ul>
+                                <p>The game can add value to both new and experienced employees. A range of standard simulation-based training sessions are offered as per below table.</p>
+                            </div>
+                            <div class="mdl-cell--6-col"><img class="mdl-cell--12-col" src="images/header2.jpg">
+                                <blockquote class="mdl-cell--12-col mdl-color-text--cyan-200">Great insight! The game provides great insight in the complexity of liner shipping companies, both operational as well as commercial. In the various roles of the virtual liner shipping company you really get a feeling for the complexity each role is dealing with. Collaboration becomes vital! Given the monetary aspects is also fun to do since the outcome is a direct result of team effort.</blockquote>
+                                <cite class="mdl-cell--12-col mdl-color-text--cyan-200"> - Floris de Haan, Air Transport Expert, ORTEC Consulting Group</cite>
+                            </div>
+                            <div class="mdl-cell--12-col margin-top-30">
+
+                                <p>Bespoke company courses, training and game sessions can also be offered. For further information about the game and related training sessions, please contact us by mail or phone.</p>
+                            </div>
+                            <table class="mdl-data-table mdl-js-data-table" border="1">
+                                <tr>
+                                    <th rowspan="2" class="mdl-data-table__cell--non-numeric">Training / Game Session</th>
+                                    <th rowspan="2" class="mdl-data-table__cell--non-numeric">Duration</th>
+                                    <th rowspan="2" class="mdl-data-table__cell--non-numeric">Lecturing Included</th>
+                                    <th colspan="3" class="mdl-data-table__cell--non-numeric">Game Versions</th>
+                                </tr>
+                                <tr>
+                                    <td class="mdl-data-table__cell--non-numeric">Standard</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Expanded</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Advanced
+                                        <br>OR/IT-based</td>
+                                </tr>
+                                <tr>
+                                    <th>Fundamentals of Liner Shipping</th>
+                                    <td class="mdl-data-table__cell--non-numeric">1 day</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Yes</td>
+                                    <td class="mdl-data-table__cell--non-numeric">X</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>Fundamentals of Liner Shipping</th>
+                                    <td class="mdl-data-table__cell--non-numeric">2 days</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Yes</td>
+                                    <td class="mdl-data-table__cell--non-numeric">X</td>
+                                    <td class="mdl-data-table__cell--non-numeric">X</td>
+                                    <td class="mdl-data-table__cell--non-numeric"></td>
+                                </tr>
+                                <tr>
+                                    <th>Commercial and Operational
+                                        <br>Optimization in Liner Shipping</th>
+                                    <td class="mdl-data-table__cell--non-numeric">2-3 days</td>
+                                    <td class="mdl-data-table__cell--non-numeric">Yes</td>
+                                    <td class="mdl-data-table__cell--non-numeric">X</td>
+                                    <td class="mdl-data-table__cell--non-numeric">X</td>
+                                    <td class="mdl-data-table__cell--non-numeric">X</td>
+                                </tr>
+                            </table>
+                            <div class="mdl-cell--12-col margin-top-30">
+                                <p>Features of expanded game versions:</p>
+                                <ul>
+                                    <li>
+                                        <p>Check for equipment availability at booking stage</p>
+                                    </li>
+                                    <li>
+                                        <p>Repositioning of equipment / empties by terminal operators / depot managers</p>
+                                    </li>
+                                    <li>
+                                        <p>Additional capacity / stowage constraints – Weight, Crane Splits, Dangerous Cargo</p>
+                                    </li>
+                                    <li>
+                                        <p>Contingencies – Cut and Run</p>
+                                    </li>
+                                    <li>
+                                        <p>Downfalls / No-shows</p>
+                                    </li>
+                                    <li>
+                                        <p>Vessel Sharing Agreements</p>
+                                    </li>
+                                    <li>
+                                        <p>Alternative market scenarios</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="footnote">*LEGO<sup>TM</sup> is a trademark of the LEGO Group of companies which does not sponsor, authorize or endorse this site.</p>
+                    </div>
+                </div>
+                <footer class="mdl-mega-footer">
+                    <div class="mdl-mega-footer--top-section">
+                        <div class="mdl-mega-footer--right-section">
+                            <a class="mdl-typography--font-light" href="#" onclick="scrollToDiv('top')">
+                    Back to Top
+                    <i class="material-icons">expand_less</i>
+                  </a>
+                        </div>
+                    </div>
+                    <div class="mdl-mega-footer--middle-section">
+                        <address class="mdl-typography--font-light address">
+                          <p>LinerGame.com<br>
+                            Tagensvej 188, 1<br>
+                            DK-2400 Copenhagen NV<br>
+                            Denmark<br>
+                            Phone: +45 4141 8228<br>
+                            <a href="mailto:contact@linergame.com" target="_top">contact@linergame.com</a>
+                          </p>
+                        </address>
+                    </div>
+                    <div class="mdl-mega-footer--bottom-section">
+                        <a class="mdl-typography--font-light" href="about.html">About</a>
+                        <a class="mdl-typography--font-light" href="contact.html">Contact</a>
+                    </div>
+                </footer>
+        </main>
+        <div class="mdl-tooltip" for="lego1">LEGO<sup>TM</sup> is a trademark of the LEGO Group of companies
+            <br>which does not sponsor, authorize or endorse this site.
+        </div>
+        <div class="mdl-tooltip" for="lego2">LEGO<sup>TM</sup> is a trademark of the LEGO Group of companies
+            <br>which does not sponsor, authorize or endorse this site.
+        </div>
+    </div>
+    <script src="js/material.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
