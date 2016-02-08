@@ -19,27 +19,11 @@
         <script src="js/addheader.js"></script>
         <script>addHeader();</script>
         <main class="mdl-layout__content">
-            <div id="top" class="page-content">
-                <div class="mdl-grid ">
-                    <div class="mdl-cell mdl-cell--12-col mdl-color-text--grey-800 article-section">
-                        <div class="article-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-grid">
-                            <h1>Linergame Advanced</h1>
-                            <div class="mdl-cell mdl-cell--12-col">
-                                <p>We can tailor sessions to individual company needs, both in terms of complexity and educational requirements.</p>
-                                <p>An example is a 2-day simulation of the running of a container shipping line. The first day will be a simulation of the basic dynamics of uptake management, stowage, forecasting, rollings, prioritizing key clients versus spot clients and revenue maximization. The second day the complexity will be increased by introducing empty equipment repositioning, further stowage restrictions and additional cargo types. On the second day, the participants will also work with optimizing work flow processes to improve performance.</p>
-                                <p>Ideal for: Container line employees, process optimization consultants and supply chain managers</p>
-                                <p class="time-description"><i class="material-icons">access_time</i> <span class="game-time"> 2 days (7+7 hours). Can be extended to 3 days including a 1 day training course in fundamental container shipping dynamics.</span></p>
-                                <button onClick="window.location.href='mailto:contact@linergame.com?Subject=Request%20info';" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-                                    Request more info
-                                </button>
-                                &nbsp;
-                                <button onClick="window.location.href='mailto:contact@linergame.com?Subject=Book%20advanced%20game%20session';" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                                    Book a session
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div id="content">
+                <h1>Linergame Advanced</h1>
+                <p>We can tailor sessions to individual company needs, both in terms of complexity and educational requirements.</p>
+                <p>An example is a 2-day simulation of the running of a container shipping line. The first day will be a simulation of the basic dynamics of uptake management, stowage, forecasting, rollings, prioritizing key clients versus spot clients and revenue maximization. The second day the complexity will be increased by introducing empty equipment repositioning, further stowage restrictions and additional cargo types. On the second day, the participants will also work with optimizing work flow processes to improve performance.</p>
+                <p>Ideal for: Container line employees, process optimization consultants and supply chain managers</p>
             </div>
         </main>
     </div>
@@ -47,7 +31,14 @@
     <script src="js/custom.js"></script>
     <script src="js/addfooter.js"></script>
     <script src="js/addproductcards.js"></script>
-    <script>addProductCards(); addFooter();</script>
+    <script src="js/stylemain.js"></script>
+    <script src="js/addbuttonstocontent.js"></script>
+    <script>
+        styleMain();
+        addButtonsToContent('advanced', '2 days (7+7 hours). Can be extended to 3 days including a 1 day training course in fundamental container shipping dynamics.');
+        addProductCards();
+        addFooter();
+    </script></body>
 </body>
 
 </html>

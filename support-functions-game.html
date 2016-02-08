@@ -19,26 +19,10 @@
         <script src="js/addheader.js"></script>
         <script>addHeader();</script>
         <main class="mdl-layout__content">
-            <div id="top" class="page-content">
-                <div class="mdl-grid ">
-                    <div class="mdl-cell mdl-cell--12-col mdl-color-text--grey-800 article-section">
-                        <div class="article-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-grid">
-                            <h1>Linergame Support Functions</h1>
-                            <div class="mdl-cell mdl-cell--12-col">
-                                <p>A 1-day interactive session aimed specifically at specialist business support functions in the container shipping industry. This includes specialists in Finance, Human Resources, IT, Communication and Marketing. The session will provide the participants with a good understanding of the key dynamics and challenges in the core business of a container shipping line, and will be tailored to emphasize the links between the participants’ support function roles and the key dynamics.</p>
-                                <p>Ideal for: Container shipping employees in IT, Finance, HR, Communication, Marketing, Procurement as well as generalist Project Managers and Process Consultants.</p>
-                                <p class="time-description"><i class="material-icons">access_time</i> <span class="game-time"> 7 hours.</span></p>
-                                <button onClick="window.location.href='mailto:contact@linergame.com?Subject=Request%20info';" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-                                    Request more info
-                                </button>
-                                &nbsp;
-                                <button onClick="window.location.href='mailto:contact@linergame.com?Subject=Book%20support%20functions%20game%20session';" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                                    Book a session
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div id="content">
+                <h1>Linergame Support Functions</h1>
+                <p>A 1-day interactive session aimed specifically at specialist business support functions in the container shipping industry. This includes specialists in Finance, Human Resources, IT, Communication and Marketing. The session will provide the participants with a good understanding of the key dynamics and challenges in the core business of a container shipping line, and will be tailored to emphasize the links between the participants’ support function roles and the key dynamics.</p>
+                <p>Ideal for: Container shipping employees in IT, Finance, HR, Communication, Marketing, Procurement as well as generalist Project Managers and Process Consultants.</p>
             </div>
         </div>
     </main>
@@ -46,8 +30,13 @@
     <script src="js/material.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/addfooter.js"></script>
-    <script src="js/addfooter.js"></script>
     <script src="js/addproductcards.js"></script>
-    <script>addProductCards(); addFooter();</script>
-</body>
+    <script src="js/stylemain.js"></script>
+    <script src="js/addbuttonstocontent.js"></script>
+    <script>
+        styleMain();
+        addButtonsToContent('support functions', '7 hours');
+        addProductCards();
+        addFooter();
+    </script></body>
 </html>

@@ -19,34 +19,18 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <script src="js/addheader.js"></script>
         <script>addHeader();</script>
-        <main class="mdl-layout__content  mdl-color--grey-200 full-bg standard-bg">
-            <div id="top" class="page-content">
-                <div class="mdl-grid">
-                    <div class="mdl-cell mdl-cell--12-col mdl-color-text--grey-800 article-section">
-                        <div class="article-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-grid">
-                            <h1>Linergame Standard</h1>
-                            <div class="mdl-cell mdl-cell--8-col">
-                                <p>A 1-day interactive training course aimed specifically at new employees in the liner shipping industry. In addition to the hands-on training provided through the game, the session also includes a training session on the fundamental drivers and dynamics of modern liner shipping.</p>
-                                <p>Ideal for: New employees in container lines, ocean freight forwarders, container ports and terminals as well as ocean supply chain managers with importers and exporters. Also well suited for suppliers to the container shipping industry with a need to understand the fundamental drivers and challenges.</p>
-                                <p class="time-description"><i class="material-icons">access_time</i> <span class="game-time">7 hours. Can also be extended to 2 full days where a full day is spent on a more comprehensive training introduction to container shipping.</span></p>
-                            </div>
-                            <div class="mdl-cell mdl-cell--4-col game-quote">
-                                <blockquote class="subtle-quote">
-                                    I learned a lot from playing the liner shipping game and I learned it fast. It helps you understand the complexities of coordinating between countries and ports and between key personnel groups.
-                                </blockquote>
-                                <cite class="subtle-quote">- Chris Ellegaard, Professor, Aarhus University</cite>
-                            </div>
-                            <div class="mdl-cell mdl-cell--12-col">
-                                <button onClick="window.location.href='mailto:contact@linergame.com?Subject=Request%20info';" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-                                    Request more info
-                                </button>
-                                &nbsp;
-                                <button onClick="window.location.href='mailto:contact@linergame.com?Subject=Book%20standard%20game%20session';" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                                    Book a session
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+        <main class="mdl-color--grey-200 full-bg standard-bg">
+            <div id="content">
+                <h1>Linergame Standard</h1>
+                <div class="mdl-cell mdl-cell--8-col">
+                    <p>A 1-day interactive training course aimed specifically at new employees in the liner shipping industry. In addition to the hands-on training provided through the game, the session also includes a training session on the fundamental drivers and dynamics of modern liner shipping.</p>
+                    <p>Ideal for: New employees in container lines, ocean freight forwarders, container ports and terminals as well as ocean supply chain managers with importers and exporters. Also well suited for suppliers to the container shipping industry with a need to understand the fundamental drivers and challenges.</p>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col game-quote">
+                    <blockquote class="subtle-quote">
+                        I learned a lot from playing the liner shipping game and I learned it fast. It helps you understand the complexities of coordinating between countries and ports and between key personnel groups.
+                    </blockquote>
+                    <cite class="subtle-quote">- Chris Ellegaard, Professor, Aarhus University</cite>
                 </div>
             </div>
         </main>
@@ -55,7 +39,14 @@
     <script src="js/custom.js"></script>
     <script src="js/addfooter.js"></script>
     <script src="js/addproductcards.js"></script>
-    <script>addProductCards(); addFooter();</script>
+    <script src="js/stylemain.js"></script>
+    <script src="js/addbuttonstocontent.js"></script>
+    <script>
+        styleMain();
+        addButtonsToContent('standard', '7 hours. Can also be extended to 2 full days where a full day is spent on a more comprehensive training introduction to container shipping.');
+        addProductCards();
+        addFooter();
+    </script>
 </body>
 
 </html>
