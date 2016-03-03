@@ -8,8 +8,9 @@ var addHeader = function() {
     <div class="mdl-layout__drawer">\
         <span class="mdl-layout-title">LinerGame</span>\
         <nav class="mdl-navigation">\
-            <a class="mdl-navigation__link" href="index.html">Home (The Game)</a>\
-            <a class="mdl-navigation__link" href="about.html">About</a>\
+            <a class="mdl-navigation__link" href="index.html">Home</a>\
+            <a class="mdl-navigation__link" href="about.html">About The Company</a>\
+            <a class="mdl-navigation__link" href="the-game.html">About The Game</a>\
             <a class="mdl-navigation__link" href="references.html">References</a>\
             <a class="mdl-navigation__link" href="contact.html">Contact</a>\
             <div class="drawer-separator"></div>\
