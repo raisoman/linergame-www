@@ -16,31 +16,8 @@
 
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header">
-            <div class="mdl-layout__header-row">
-                <span class="mdl-layout-title"><a href="index.html"><img src="images/linergame-logo.png" alt="LinerGame"></a></span>
-                <p class="lg-pagetitle">Home/The game</p>
-            </div>
-        </header>
-        <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">LinerGame</span>
-            <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="index.html">Home</a>
-                <a class="mdl-navigation__link" href="#game">The Game</a>
-                <a class="mdl-navigation__link" href="about.html">About</a>
-                <a class="mdl-navigation__link" href="references.html">References</a>
-                <a class="mdl-navigation__link" href="contact.html">Contact</a>
-                <div class="drawer-separator"></div>
-                <span class="mdl-navigation__link mdl-color-text--cyan-400" href="">Game types</span>
-                <a class="mdl-navigation__link" href="standard-game.html">Standard</a>
-                <a class="mdl-navigation__link" href="executive-game.html">Executive</a>
-                <a class="mdl-navigation__link" href="support-functions-game.html">Support functions</a>
-                <a class="mdl-navigation__link" href="teambuilding-game.html">Teambuilding</a>
-                <a class="mdl-navigation__link" href="ports-game.html">For ports</a>
-                <a class="mdl-navigation__link" href="advanced-game.html">Advanced</a>
-
-            </nav>
-        </div>
+        <script src="js/addheader.js"></script>
+        <script>addHeader();</script>
         <main class="mdl-layout__content">
             <div id="top" class="page-content">
                 <div id="heroimg" class="mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
@@ -165,7 +142,7 @@
                                 Extremely educating. It helped us to understand some essential basics, such as the difference between committed and non-committed cargo. It also provided insight on the importance smooth cooperation of the whole shipping network, not only its individual parts.
                             </blockquote>
                             <cite>- Henri Paukku, Project Manager, MacGregor Cargotec</cite>
-                            </p>
+                        </p>
                         <button onClick="window.location.href='mailto:contact@linergame.com?Subject=Request%20info';" class="mdl-button  mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
                             Request more info
                         </button>
@@ -225,35 +202,10 @@
                                 <blockquote class="mdl-cell--12-col mdl-color-text--cyan-200">Great insight! The game provides great insight in the complexity of liner shipping companies, both operational as well as commercial. In the various roles of the virtual liner shipping company you really get a feeling for the complexity each role is dealing with. Collaboration becomes vital! Given the monetary aspects is also fun to do since the outcome is a direct result of team effort.</blockquote>
                                 <cite class="mdl-cell--12-col mdl-color-text--cyan-200"> - Floris de Haan, Air Transport Expert, ORTEC Consulting Group</cite>
                             </div>
-                            <div class="mdl-cell--12-col margin-top-30">
-                                
-                            </div>
-			              
-                <footer class="mdl-mega-footer">
-                    <div class="mdl-mega-footer--top-section">
-                        <div class="mdl-mega-footer--right-section">
-                            <a class="mdl-typography--font-light" href="#" onclick="scrollToDiv('top')">
-                    Back to Top
-                    <i class="material-icons">expand_less</i>
-                  </a>
                         </div>
                     </div>
-                    <div class="mdl-mega-footer--middle-section">
-                        <address class="mdl-typography--font-light address">
-                          <p>LinerGame.com<br>
-                            Tagensvej 188, 1<br>
-                            DK-2400 Copenhagen NV<br>
-                            Denmark<br>
-                            Phone: +45 4141 8228<br>
-                            <a href="mailto:contact@linergame.com" target="_top">contact@linergame.com</a>
-                          </p>
-                        </address>
-                    </div>
-                    <div class="mdl-mega-footer--bottom-section">
-                        <a class="mdl-typography--font-light" href="about.html">About</a>
-                        <a class="mdl-typography--font-light" href="contact.html">Contact</a>
-                    </div>
-                </footer>
+                </div>
+            </div>
         </main>
         <div class="mdl-tooltip" for="lego1">LEGO<sup>TM</sup> is a trademark of the LEGO Group of companies
             <br>which does not sponsor, authorize or endorse this site.
@@ -264,5 +216,7 @@
     </div>
     <script src="js/material.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/addfooter.js"></script>
+    <script>addFooter();</script>
 </body>
 </html>
