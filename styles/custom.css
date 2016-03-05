@@ -126,6 +126,10 @@ img {
     background: rgb(0, 188, 212);
 }
 
+.customerquote-white-bg {
+    color: rgb(0, 188, 212);
+}
+
 .article-section {
     padding: 80px 0;
     max-width: 1044px;
