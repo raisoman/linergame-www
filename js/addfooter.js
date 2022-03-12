@@ -15,7 +15,7 @@ var addFooter = function() {
             DK-2400 Copenhagen NV<br>\
             Denmark<br>\
             Phone: +45 4141 8228<br>\
-            <a href="mailto:contact@linergame.com" target="_top">contact@linergame.com</a>\
+            <a href="mailto:lars.jensen@vespucci-maritime.com" target="_top">lars.jensen@vespucci-maritime.com</a>\
             </p>\
     </address>\
         </div>\
